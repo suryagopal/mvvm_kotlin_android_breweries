@@ -14,9 +14,9 @@ The app is built with Kotlin and mvvm architecture. It also features dependancy 
 4. Run the app on an emulator or device
 
 # Architecture
-The app was built with an mvvm architecture. 
-This keeps UI code simple and free of app logic in order to make it easier to manage and test. 
-An RX mindset was used to keep the app scalable going forward. 
-Depenandancy injection was done via koin so that components can be tested indepenantly without strong references. 
-For networking I used retrofit, a strong yet lightwieght client. 
-To manage databetween the screens a room database was used. This keeps the data synced between screens.
+- The app was built with an mvvm architecture. 
+- This keeps UI code simple and free of app logic in order to make it easier to manage and test. 
+- An RX mindset was used to keep the app scalable going forward. 
+- Depenandancy injection was done via koin so that components can be tested indepenantly without strong references. 
+- For networking I used retrofit, a strong yet lightwieght client. 
+- To manage databetween the screens a room database was used. This keeps the data synced between screens.
