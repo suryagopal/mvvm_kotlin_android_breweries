@@ -1,0 +1,40 @@
+ext {
+
+    def retrofitVersion = '2.7.0'
+    def rxJava2Version = '2.2.16'
+    def rxAndroidVersion = '2.1.1'
+    def okHttpVersion = '4.2.1'
+    def koinVersion = '2.0.1'
+    def roomVersion = '2.2.3'
+    def conscryptVersion = '2.2.1'
+
+    koinDependencies = [
+            koinAndroid   : "org.koin:koin-android:${koinVersion}",
+            koinScope     : "org.koin:koin-androidx-scope:${koinVersion}",
+            koinViewModels: "org.koin:koin-androidx-viewmodel:${koinVersion}"
+    ]
+
+    rxJavaDependencies = [
+            rxJava2  : "io.reactivex.rxjava2:rxjava:${rxJava2Version}",
+            rxAndroid: "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}"
+    ]
+
+    networkDependencies = [
+            conscrypt: "org.conscrypt:conscrypt-android:${conscryptVersion}",
+            retrofit : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            gson     : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            okhttp   : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            logging  : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            rxAdapter: "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}"
+
+    ]
+
+    roomImplDependencies = [
+            room  : "androidx.room:room-runtime:${roomVersion}",
+            roomRx: "androidx.room:room-rxjava2:${roomVersion}"
+    ]
+
+    roomAnotDependencies = [
+            roomAnot: "androidx.room:room-compiler:${roomVersion}"
+    ]
+}

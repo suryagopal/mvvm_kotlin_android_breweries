@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Breweries</string>
+    <string name="button_website">Website</string>
+    <string name="button_view_on_map">Map</string>
+    <string name="button_call">Contact</string>
+    <string name="error_not_available">Sorry, this feature is not available.</string>
+    <string name="loading_text">Brewing</string>
+    <string name="dummy_placeholder_text">Lorem ipsum text</string>
+    <string name="brewery_type">Type: %s</string>
+    <string name="empty_string" />
+    <string name="frag_details_title">Brewery Details</string>
+    <string name="frag_breweries_title">Breweries</string>
+</resources>
